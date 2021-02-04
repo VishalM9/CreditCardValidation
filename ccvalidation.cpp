@@ -20,6 +20,7 @@ bool validation(const string& cn)
 int main()
 {
 	string cardNo;
+  cout<<"Program will check for your credit card valildity"<<endl;
   cout<<"Enter your credit card number:"<<endl;
   cin>>cardNo;
 	if (validation(cardNo))
